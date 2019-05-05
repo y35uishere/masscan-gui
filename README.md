@@ -1,6 +1,7 @@
 # masscan-gui
 TCP port scanner, spews SYN packets asynchronously,
 
+
 > TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.## TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. BY:Masscan
 
 [![](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)
@@ -29,14 +30,21 @@ MASSCAN不建立完整的TCP连接，收到SYN/ACK之后，发送RST结束连接
 
 ### 下载地址 download link 
 new！[Orange-port-scanner v0.4](https://lr3800.com/download/0.1.7z "https://lr3800.com/download/0.4.7z")
+
 [Orange-port-scanner v0.1](https://lr3800.com/download/0.1.7z "https://lr3800.com/download/0.1.7z")
+
 （工具内有更新程序，可不必关注该页面的下载地址）
+
  支持语言： 英语、 俄罗斯语、简体中文、繁体中文、土耳其语
+ 
 更新日志：
+
 （2019/5/5 v0.4）
+
 列表新增保存功能，停止扫描功能；优化扫描速度，显示端口协议
 
 （2019/4/25 v0.1）
+
 发布
 
 
@@ -58,6 +66,7 @@ PING 探测存活主机
 端口扫描 探测开放服务
 [![](https://i.loli.net/2019/05/05/5ccea9c2ee183.png)](https://i.loli.net/2019/05/05/5ccea9c2ee183.png)
 
+发包速度建议默认在10000 小于30万，根据自己电脑配置和宽带合理使用；否则很容易暂用大量宽带造成局域网瘫痪
 
 仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则承担全部法律及连带责任，安全猎人不承担任何法律及连带责任。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。
 参见 [免责声明](https://lr3800.com/disclaimer/ "免责声明")
