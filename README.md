@@ -53,7 +53,7 @@ new！[Orange-port-scanner v0.4](https://lr3800.com/download/0.1.7z "https://lr3
 发布
 
 
-**注意：**依赖 [WinPcap](https://www.winpcap.org/ "WinPcap")，安装后才可使用扫描
+**注意：**依赖 [WinPcap](https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe "WinPcap")，安装后才可使用扫描
 
 玩的开心！
 
