@@ -21,7 +21,7 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
 由于masscan没有图形界面，所以这个工具诞生了！
 
 简要原理
-[MASSCAN](https://github.com/robertdavidgraham/masscan "MASSCAN")不建立完整的TCP连接，收到SYN/ACK之后，发送RST结束连接。选项--banners除外。
+[MASSCAN](https://github.com/robertdavidgraham/masscan "MASSCAN")不建立完整的TCP连接，收到SYN/ACK之后，发送RST结束连接。
 
 [![](https://i.loli.net/2019/05/05/5cceab4e3a757.png)](https://i.loli.net/2019/05/05/5cceab4e3a757.png)
 
