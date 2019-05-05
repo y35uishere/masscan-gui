@@ -38,6 +38,10 @@ new！[Orange-port-scanner v0.4](https://lr3800.com/download/0.1.7z "https://lr3
 
  支持语言： 英语、 俄罗斯语、简体中文、繁体中文、土耳其语
  
+  支持系统：WIN7/WIN8/WIN10   不支持XP/2003
+  
+  ------------
+  
 更新日志：
 
 （2019/5/5 v0.4）
