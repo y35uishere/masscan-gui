@@ -1,7 +1,3 @@
-# masscan-gui
-TCP port scanner, spews SYN packets asynchronously,
-
-
 > TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.## TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. BY:Masscan
 
 [![](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)
@@ -14,7 +10,7 @@ TCP port scanner, spews SYN packets asynchronously,
 
 ## 简介
 
-[masscan](https://github.com/robertdavidgraham/masscan "masscan")号称是世界上最快的扫描软件，可以在3分钟内扫描整个互联网端口，但条件是4核电脑，双端口10G网卡。
+[masscan](https://github.com/robertdavidgraham/masscan "masscan")号称是世界上最快的扫描软件，可以在3分钟内扫描整个互联网端口，但是这个是由条件的4核电脑，双端口10G网卡。
 
 masscan相比nmap之所以快很多，masscan采用了异步传输方式，无状态的扫描方式。nmap需要记录tcp/ip的状态，os能够处理的TCP/IP连接最多为1500左右。
 
@@ -24,21 +20,18 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
 [MASSCAN](https://github.com/robertdavidgraham/masscan "MASSCAN")不建立完整的TCP连接，收到SYN/ACK之后，发送RST结束连接。
 [![](https://i.loli.net/2019/05/05/5cceab4e3a757.png)](https://i.loli.net/2019/05/05/5cceab4e3a757.png)
 
+
 ------------
 
 扫描器内核使用 masscan [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan "https://github.com/robertdavidgraham/masscan")
 
 ### 下载地址 download link 
-new！[Orange-port-scanner v0.5.1](https://lr3800.com/download/0.5.1.7z "https://lr3800.com/download/0.5.1.7z")
+主程序[点击下载](https://lr3800.com/download/0.5.1.7z "https://lr3800.com/download/0.5.1.7z") 
 
-[Orange-port-scanner v0.1](https://lr3800.com/download/0.1.7z "https://lr3800.com/download/0.1.7z")
-
-（工具内有更新程序，可不必关注该页面的下载地址）
+[完整]主程序+运行库 [点击下载](https://cdn.lr3800.52qdw.cn/Orange-port-scanner.7z "点击下载")
 
  支持语言： 英语、 俄罗斯语、简体中文、繁体中文、土耳其语
- 
  支持系统：WIN7/WIN8/WIN10   不支持XP/2003
- 
 更新日志：
 
 （2019/5/5 v0.4）
@@ -50,9 +43,12 @@ new！[Orange-port-scanner v0.5.1](https://lr3800.com/download/0.5.1.7z "https:/
 发布
 
 
-**注意：**依赖 [WinPcap](https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe "WinPcap")，安装后才可使用扫描
+**注意：**
 
-玩的开心！
+依赖 [WinPcap](https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe "WinPcap")，安装后才可使用扫描，[点击下载](https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe "点击下载") 
+
+如果出现其他错误，不能正常扫描；检测是否缺少微软运行库！[点击下载](https://lr3800.com/download/MSVBCRT.AIO.2019.04.24.x64.exe "点击下载")
+
 
 ## 使用方法：
 输入IP地址格式：
