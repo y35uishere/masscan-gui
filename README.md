@@ -31,7 +31,9 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
 [完整]主程序+运行库 [点击下载](https://cdn.lr3800.52qdw.cn/Orange-port-scanner.7z "点击下载")
 
  支持语言： 英语、 俄罗斯语、简体中文、繁体中文、土耳其语
+ 
  支持系统：WIN7/WIN8/WIN10   不支持XP/2003
+ 
 更新日志：
 
 （2019/5/5 v0.4）
