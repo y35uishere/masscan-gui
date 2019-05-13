@@ -1,10 +1,3 @@
-> TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.## TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. BY:Masscan
-
-[![](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)](https://i.loli.net/2019/04/25/5cc11dc21b234.gif)
-
-#### 只需三秒，或者更快；扫描IP段
-
-[![](https://i.loli.net/2019/04/25/5cc11dce983ba.gif)](https://i.loli.net/2019/04/25/5cc11dce983ba.gif)
 
 ------------
 
@@ -16,14 +9,10 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
 
 由于masscan没有图形界面，所以这个工具诞生了！
 
-简要原理
-[MASSCAN](https://github.com/robertdavidgraham/masscan "MASSCAN")不建立完整的TCP连接，收到SYN/ACK之后，发送RST结束连接。
-[![](https://i.loli.net/2019/05/05/5cceab4e3a757.png)](https://i.loli.net/2019/05/05/5cceab4e3a757.png)
 
 
 ------------
 
-扫描器内核使用 masscan [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan "https://github.com/robertdavidgraham/masscan")
 
 ### 下载地址 download link 
 主程序[点击下载](https://cdn.lr3800.52qdw.cn/0.6.7z "https://cdn.lr3800.52qdw.cn/0.6.7z") 
@@ -33,17 +22,6 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
  支持语言： 英语、 俄罗斯语、简体中文、繁体中文、土耳其语
  
  支持系统：WIN7/WIN8/WIN10   不支持XP/2003
- 
-更新日志：
-
-（2019/5/5 v0.4）
-
-列表新增保存功能，停止扫描功能；优化扫描速度，显示端口协议
-
-（2019/4/25 v0.1）
-
-发布
-
 
 **注意：**
 
