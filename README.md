@@ -26,7 +26,7 @@ masscan相比nmap之所以快很多，masscan采用了异步传输方式，无�
 扫描器内核使用 masscan [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan "https://github.com/robertdavidgraham/masscan")
 
 ### 下载地址 download link 
-主程序[点击下载](https://lr3800.com/download/0.5.1.7z "https://lr3800.com/download/0.5.1.7z") 
+主程序[点击下载](https://cdn.lr3800.52qdw.cn/0.6.7z "https://cdn.lr3800.52qdw.cn/0.6.7z") 
 
 [完整]主程序+运行库 [点击下载](https://cdn.lr3800.52qdw.cn/Orange-port-scanner.7z "点击下载")
 
